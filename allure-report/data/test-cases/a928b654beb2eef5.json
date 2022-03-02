@@ -1,0 +1,107 @@
+{
+  "uid" : "a928b654beb2eef5",
+  "name" : "productPurchase",
+  "fullName" : "com.lambdatestassign4.tests.userSignup.productPurchase",
+  "historyId" : "4a0bc8a39c538641704b9c69fc4e889e",
+  "time" : {
+    "start" : 1646249199707,
+    "stop" : 1646249228948,
+    "duration" : 29241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1646249194842,
+      "stop" : 1646249199704,
+      "duration" : 4862
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646249228951,
+      "stop" : 1646249230982,
+      "duration" : 2031
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "testClass",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "testMethod",
+    "value" : "productPurchase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "LambaTestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "WIN10OPERA"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "host",
+    "value" : "192.168.1.9"
+  }, {
+    "name" : "thread",
+    "value" : "44210@192.168.1.9.TestNG-tests-3(22)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Opera"
+  }, {
+    "name" : "platform",
+    "value" : "Windows 10"
+  }, {
+    "name" : "version",
+    "value" : "83.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a928b654beb2eef5.json",
+  "parameterValues" : [ "Opera", "Windows 10", "83.0" ]
+}

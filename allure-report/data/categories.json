@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "\nParameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined\nin /Users/amitwalia/Library/Caches/JetBrains/IdeaIC2021.3/temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "daff5592b298cb15",
+        "parentUid" : "75c1fa2b86753889b553d0aa91fc367d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249120300,
+          "stop" : 1646249120302,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75c1fa2b86753889b553d0aa91fc367d"
+    }, {
+      "name" : "Build info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [8827990B-488C-4C61-AED9-5F6BB36B0357, clickElement {id=node-5E18FB01-763E-4D02-B794-4E186D5EEC3F}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21A559, safari:platformVersion: 12.0.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 8827990B-488C-4C61-AED9-5F6..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nElement: [[RemoteWebDriver: Safari on MAC (8827990B-488C-4C61-AED9-5F6BB36B0357)] -> xpath: //strong[normalize-space()='Checkout']]\nSession ID: 8827990B-488C-4C61-AED9-5F6BB36B0357",
+      "children" : [ {
+        "name" : "productPurchase",
+        "uid" : "5a0c72cf51f87b92",
+        "parentUid" : "d378df9112c7092d07c8320fb3b07eba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249195960,
+          "stop" : 1646249220094,
+          "duration" : 24134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Safari", "MacOS Monterey", "15.0" ]
+      } ],
+      "uid" : "d378df9112c7092d07c8320fb3b07eba"
+    }, {
+      "name" : "element not interactable\n  (Session info: chrome=98.0.4758.102)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [6d9e6152c7e0784f1d5d95ec6f19483b, clickElement {id=9a575fbf-9527-4216-b81f-dd18491c0227}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/s0/h2xfsvn150n...}, goog:chromeOptions: {debuggerAddress: localhost:65093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6d9e6152c7e0784f1d5d95ec6f1...}\nElement: [[RemoteWebDriver: chrome on MAC (6d9e6152c7e0784f1d5d95ec6f19483b)] -> xpath: //img[@title='MacBook']]\nSession ID: 6d9e6152c7e0784f1d5d95ec6f19483b",
+      "children" : [ {
+        "name" : "productPurchase",
+        "uid" : "74bd637219ee9fc6",
+        "parentUid" : "f0aa63b72c1737c414e1a8b8fcfe516d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249223146,
+          "stop" : 1646249236601,
+          "duration" : 13455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Chrome", "MacOS Catalina", "98.0" ]
+      } ],
+      "uid" : "f0aa63b72c1737c414e1a8b8fcfe516d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

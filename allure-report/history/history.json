@@ -1,0 +1,254 @@
+{
+  "a780f0cb3b6a5293b5bec5d2983a8074" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27a92f342e035421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249203663,
+        "stop" : 1646249235132,
+        "duration" : 31469
+      }
+    } ]
+  },
+  "f1511133fd013bd8cc71fc2eb19f2877" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86ea0259df4113ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249172847,
+        "stop" : 1646249192946,
+        "duration" : 20099
+      }
+    } ]
+  },
+  "cd05394756d445c4da886a880aae16e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a0c72cf51f87b92",
+      "status" : "broken",
+      "statusDetails" : "Build info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [8827990B-488C-4C61-AED9-5F6BB36B0357, clickElement {id=node-5E18FB01-763E-4D02-B794-4E186D5EEC3F}]\nCapabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.1, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21A559, safari:platformVersion: 12.0.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 8827990B-488C-4C61-AED9-5F6..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}\nElement: [[RemoteWebDriver: Safari on MAC (8827990B-488C-4C61-AED9-5F6BB36B0357)] -> xpath: //strong[normalize-space()='Checkout']]\nSession ID: 8827990B-488C-4C61-AED9-5F6BB36B0357",
+      "time" : {
+        "start" : 1646249195960,
+        "stop" : 1646249220094,
+        "duration" : 24134
+      }
+    } ]
+  },
+  "d8ebd2fa0561104e444cf28cbe98c371" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74bd637219ee9fc6",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=98.0.4758.102)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [6d9e6152c7e0784f1d5d95ec6f19483b, clickElement {id=9a575fbf-9527-4216-b81f-dd18491c0227}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/s0/h2xfsvn150n...}, goog:chromeOptions: {debuggerAddress: localhost:65093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6d9e6152c7e0784f1d5d95ec6f1...}\nElement: [[RemoteWebDriver: chrome on MAC (6d9e6152c7e0784f1d5d95ec6f19483b)] -> xpath: //img[@title='MacBook']]\nSession ID: 6d9e6152c7e0784f1d5d95ec6f19483b",
+      "time" : {
+        "start" : 1646249223146,
+        "stop" : 1646249236601,
+        "duration" : 13455
+      }
+    } ]
+  },
+  "7a9013776c2f1b0730253c6ddb92452c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e33d927d1d0fdd2",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined\nin /Users/amitwalia/Library/Caches/JetBrains/IdeaIC2021.3/temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1646249120407,
+        "stop" : 1646249120411,
+        "duration" : 4
+      }
+    } ]
+  },
+  "726314430b1f9f1f26bef4ed7df8c25f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "daff5592b298cb15",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined\nin /Users/amitwalia/Library/Caches/JetBrains/IdeaIC2021.3/temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1646249120300,
+        "stop" : 1646249120302,
+        "duration" : 2
+      }
+    } ]
+  },
+  "16011295452ab5dfec978680e6b8444" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7c5eb3ff82237e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249171783,
+        "stop" : 1646249189280,
+        "duration" : 17497
+      }
+    } ]
+  },
+  "8c3e8fa9d0990bb216dcfd2b0f30ca02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a46fa108f1a66926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249174085,
+        "stop" : 1646249193529,
+        "duration" : 19444
+      }
+    } ]
+  },
+  "4a0bc8a39c538641704b9c69fc4e889e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a928b654beb2eef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249199707,
+        "stop" : 1646249228948,
+        "duration" : 29241
+      }
+    } ]
+  },
+  "9a84b33591beea4420755b28f3f6d8be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "629d3bcdde55c7c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249198863,
+        "stop" : 1646249229388,
+        "duration" : 30525
+      }
+    } ]
+  },
+  "f9fcb20e0c983efe620bf13e1b1d11c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9335a15b555c0dd7",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'browser' is required by BeforeMethod on method setUp but has not been marked @Optional or defined\nin /Users/amitwalia/Library/Caches/JetBrains/IdeaIC2021.3/temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1646249120446,
+        "stop" : 1646249120446,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a91152ceebe718033c35cedf697a7f5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a5892b86d77b949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249174398,
+        "stop" : 1646249194216,
+        "duration" : 19818
+      }
+    } ]
+  },
+  "c818f74ae84ca30326e45f153a19f2fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1c222787d801bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249172615,
+        "stop" : 1646249191090,
+        "duration" : 18475
+      }
+    } ]
+  }
+}

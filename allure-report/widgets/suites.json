@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "e158d59e75984851dddb16eb135ec906",
+    "name" : "LambaTestSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e",
+    "name" : "Default Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

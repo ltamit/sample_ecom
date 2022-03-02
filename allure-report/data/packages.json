@@ -1,0 +1,230 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.lambdatestassign4.tests.userSignup",
+    "children" : [ {
+      "name" : "setUp",
+      "uid" : "daff5592b298cb15",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1646249120300,
+        "stop" : 1646249120302,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "signUp",
+      "uid" : "e33d927d1d0fdd2",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1646249120407,
+        "stop" : 1646249120411,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "9335a15b555c0dd7",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1646249120446,
+        "stop" : 1646249120446,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "signUp",
+      "uid" : "d7c5eb3ff82237e5",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249171783,
+        "stop" : 1646249189280,
+        "duration" : 17497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Safari", "MacOS Monterey", "15.0" ]
+    }, {
+      "name" : "signUp",
+      "uid" : "b1c222787d801bf0",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249172615,
+        "stop" : 1646249191090,
+        "duration" : 18475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome", "Windows 11", "99.0" ]
+    }, {
+      "name" : "signUp",
+      "uid" : "86ea0259df4113ea",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249172847,
+        "stop" : 1646249192946,
+        "duration" : 20099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Opera", "Windows 10", "83.0" ]
+    }, {
+      "name" : "signUp",
+      "uid" : "a46fa108f1a66926",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249174085,
+        "stop" : 1646249193529,
+        "duration" : 19444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome", "MacOS Catalina", "98.0" ]
+    }, {
+      "name" : "signUp",
+      "uid" : "2a5892b86d77b949",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249174398,
+        "stop" : 1646249194216,
+        "duration" : 19818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Firefox", "Windows 11", "98.0" ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "5a0c72cf51f87b92",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1646249195960,
+        "stop" : 1646249220094,
+        "duration" : 24134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Safari", "MacOS Monterey", "15.0" ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "629d3bcdde55c7c5",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249198863,
+        "stop" : 1646249229388,
+        "duration" : 30525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome", "Windows 11", "99.0" ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "a928b654beb2eef5",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249199707,
+        "stop" : 1646249228948,
+        "duration" : 29241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Opera", "Windows 10", "83.0" ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "27a92f342e035421",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646249203663,
+        "stop" : 1646249235132,
+        "duration" : 31469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Firefox", "Windows 11", "98.0" ]
+    }, {
+      "name" : "productPurchase",
+      "uid" : "74bd637219ee9fc6",
+      "parentUid" : "23d05a5323b02a303d36c8ba21f3a0b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1646249223146,
+        "stop" : 1646249236601,
+        "duration" : 13455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome", "MacOS Catalina", "98.0" ]
+    } ],
+    "uid" : "com.lambdatestassign4.tests.userSignup"
+  } ]
+}

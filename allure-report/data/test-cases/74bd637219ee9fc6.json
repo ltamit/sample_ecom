@@ -1,0 +1,113 @@
+{
+  "uid" : "74bd637219ee9fc6",
+  "name" : "productPurchase",
+  "fullName" : "com.lambdatestassign4.tests.userSignup.productPurchase",
+  "historyId" : "d8ebd2fa0561104e444cf28cbe98c371",
+  "time" : {
+    "start" : 1646249223146,
+    "stop" : 1646249236601,
+    "duration" : 13455
+  },
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n  (Session info: chrome=98.0.4758.102)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [6d9e6152c7e0784f1d5d95ec6f19483b, clickElement {id=9a575fbf-9527-4216-b81f-dd18491c0227}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/s0/h2xfsvn150n...}, goog:chromeOptions: {debuggerAddress: localhost:65093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6d9e6152c7e0784f1d5d95ec6f1...}\nElement: [[RemoteWebDriver: chrome on MAC (6d9e6152c7e0784f1d5d95ec6f19483b)] -> xpath: //img[@title='MacBook']]\nSession ID: 6d9e6152c7e0784f1d5d95ec6f19483b",
+  "statusTrace" : "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome=98.0.4758.102)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: '192.168.1.9', ip: 'fe80:0:0:0:14be:de0f:63af:46ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.2'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [6d9e6152c7e0784f1d5d95ec6f19483b, clickElement {id=9a575fbf-9527-4216-b81f-dd18491c0227}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /var/folders/s0/h2xfsvn150n...}, goog:chromeOptions: {debuggerAddress: localhost:65093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6d9e6152c7e0784f1d5d95ec6f1...}\nElement: [[RemoteWebDriver: chrome on MAC (6d9e6152c7e0784f1d5d95ec6f19483b)] -> xpath: //img[@title='MacBook']]\nSession ID: 6d9e6152c7e0784f1d5d95ec6f19483b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat com.lambdatestassign4.tests.userSignup.productPurchase(userSignup.java:154)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:808)\n\tat org.testng.TestRunner.run(TestRunner.java:603)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:429)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:32)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1646249195454,
+      "stop" : 1646249223103,
+      "duration" : 27649
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1646249236604,
+      "stop" : 1646249238534,
+      "duration" : 1930
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "testClass",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "testMethod",
+    "value" : "productPurchase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "LambaTestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "MACTESTCHROME"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.lambdatestassign4.tests.userSignup"
+  }, {
+    "name" : "host",
+    "value" : "192.168.1.9"
+  }, {
+    "name" : "thread",
+    "value" : "44210@192.168.1.9.TestNG-tests-5(24)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome"
+  }, {
+    "name" : "platform",
+    "value" : "MacOS Catalina"
+  }, {
+    "name" : "version",
+    "value" : "98.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74bd637219ee9fc6.json",
+  "parameterValues" : [ "Chrome", "MacOS Catalina", "98.0" ]
+}

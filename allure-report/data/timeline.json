@@ -1,0 +1,254 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "192.168.1.9",
+    "children" : [ {
+      "name" : "44186@192.168.1.9.main(1)",
+      "children" : [ {
+        "name" : "productPurchase",
+        "uid" : "9335a15b555c0dd7",
+        "parentUid" : "56a716e8390d08cfd8851134bc03d8c1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1646249120446,
+          "stop" : 1646249120446,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "daff5592b298cb15",
+        "parentUid" : "56a716e8390d08cfd8851134bc03d8c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249120300,
+          "stop" : 1646249120302,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "signUp",
+        "uid" : "e33d927d1d0fdd2",
+        "parentUid" : "56a716e8390d08cfd8851134bc03d8c1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1646249120407,
+          "stop" : 1646249120411,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56a716e8390d08cfd8851134bc03d8c1"
+    }, {
+      "name" : "44210@192.168.1.9.TestNG-tests-1(20)",
+      "children" : [ {
+        "name" : "signUp",
+        "uid" : "2a5892b86d77b949",
+        "parentUid" : "3eb7897581dfbbea304de44bf253671c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249174398,
+          "stop" : 1646249194216,
+          "duration" : 19818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Firefox", "Windows 11", "98.0" ]
+      }, {
+        "name" : "productPurchase",
+        "uid" : "27a92f342e035421",
+        "parentUid" : "3eb7897581dfbbea304de44bf253671c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249203663,
+          "stop" : 1646249235132,
+          "duration" : 31469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Firefox", "Windows 11", "98.0" ]
+      } ],
+      "uid" : "3eb7897581dfbbea304de44bf253671c"
+    }, {
+      "name" : "44210@192.168.1.9.TestNG-tests-4(23)",
+      "children" : [ {
+        "name" : "signUp",
+        "uid" : "d7c5eb3ff82237e5",
+        "parentUid" : "989695b3ff1a712704b159747c1b0c2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249171783,
+          "stop" : 1646249189280,
+          "duration" : 17497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Safari", "MacOS Monterey", "15.0" ]
+      }, {
+        "name" : "productPurchase",
+        "uid" : "5a0c72cf51f87b92",
+        "parentUid" : "989695b3ff1a712704b159747c1b0c2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249195960,
+          "stop" : 1646249220094,
+          "duration" : 24134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Safari", "MacOS Monterey", "15.0" ]
+      } ],
+      "uid" : "989695b3ff1a712704b159747c1b0c2a"
+    }, {
+      "name" : "44210@192.168.1.9.TestNG-tests-5(24)",
+      "children" : [ {
+        "name" : "productPurchase",
+        "uid" : "74bd637219ee9fc6",
+        "parentUid" : "231b2d5e375f00f10ed529f11b65a4a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646249223146,
+          "stop" : 1646249236601,
+          "duration" : 13455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Chrome", "MacOS Catalina", "98.0" ]
+      }, {
+        "name" : "signUp",
+        "uid" : "a46fa108f1a66926",
+        "parentUid" : "231b2d5e375f00f10ed529f11b65a4a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249174085,
+          "stop" : 1646249193529,
+          "duration" : 19444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Chrome", "MacOS Catalina", "98.0" ]
+      } ],
+      "uid" : "231b2d5e375f00f10ed529f11b65a4a5"
+    }, {
+      "name" : "44210@192.168.1.9.TestNG-tests-2(21)",
+      "children" : [ {
+        "name" : "productPurchase",
+        "uid" : "629d3bcdde55c7c5",
+        "parentUid" : "6689a0500146d5f6184aae412d396742",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249198863,
+          "stop" : 1646249229388,
+          "duration" : 30525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Chrome", "Windows 11", "99.0" ]
+      }, {
+        "name" : "signUp",
+        "uid" : "b1c222787d801bf0",
+        "parentUid" : "6689a0500146d5f6184aae412d396742",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249172615,
+          "stop" : 1646249191090,
+          "duration" : 18475
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Chrome", "Windows 11", "99.0" ]
+      } ],
+      "uid" : "6689a0500146d5f6184aae412d396742"
+    }, {
+      "name" : "44210@192.168.1.9.TestNG-tests-3(22)",
+      "children" : [ {
+        "name" : "signUp",
+        "uid" : "86ea0259df4113ea",
+        "parentUid" : "154babd11418a10dc62d231d469ccbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249172847,
+          "stop" : 1646249192946,
+          "duration" : 20099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Opera", "Windows 10", "83.0" ]
+      }, {
+        "name" : "productPurchase",
+        "uid" : "a928b654beb2eef5",
+        "parentUid" : "154babd11418a10dc62d231d469ccbac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646249199707,
+          "stop" : 1646249228948,
+          "duration" : 29241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Opera", "Windows 10", "83.0" ]
+      } ],
+      "uid" : "154babd11418a10dc62d231d469ccbac"
+    } ],
+    "uid" : "39110363613b9078c9efa4229823b917"
+  } ]
+}
