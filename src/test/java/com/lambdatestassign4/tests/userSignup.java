@@ -20,9 +20,9 @@ public class userSignup {
 
     public RemoteWebDriver driver;
     private String status = "failed";
-    public String username = "amitwalia";
-    public String accesskey = "KaDA5M7mmYJfhCdF35ApK1dNnHI3Tc8mLkUJyYlKWbIOW8doKm";
-    public String gridURL = "@hub.lambdatest.com/wd/hub";
+    public String username = "<Your Username>";
+    public String accesskey = "<Your Access Key>";
+    public String gridURL = "<Your Grid URL>";
 
     @Parameters(value = {"browser", "version", "platform"})
 
