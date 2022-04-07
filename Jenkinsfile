@@ -1,15 +1,18 @@
 pipeline {
     agent any
     environment {
-        LT_BUILD_NAME = "lt-pipeline-test04"
+        LT_BUILD_NAME = "test-lt-pipeline02"
     }
-    stages {
-           stage ('Setup') {
-            steps {
-                  
-                sh './LT --user ${LT_USERNAME} --key ${LT_ACCESS_KEY} &'
 
+
+    stages {
+
+         stage ('Setup') {
+            steps {
+                      sh './LT --user ${LT_USERNAME} --key ${LT_ACCESS_KEY}  &'
             }
+
+
         stage ('Git Clone') {
             steps {
                 git branch: 'main', url: 'https://github.com/ltamit/sample_ecom.git'
@@ -27,5 +30,4 @@ pipeline {
 
         }
     }
-}
 }
