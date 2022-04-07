@@ -20,9 +20,9 @@ public class userSignup {
 
     public RemoteWebDriver driver;
     private String status = "failed";
-    public String username = "<Your Username>";
-    public String accesskey = "<Your Access Key>";
-    public String gridURL = "<Your Grid URL>";
+    public String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
+    public String accesskey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
+    public String gridURL = System.getenv("LT_HUB_URL") == null ? "Your LT AccessKey" : System.getenv("LT_HUB_URL");
 
     @Parameters(value = {"browser", "version", "platform"})
 
